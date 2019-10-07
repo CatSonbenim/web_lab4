@@ -33,12 +33,6 @@
 
 @media (max-width: 850px){
 	.wrap {
-	flex-direction: column;
-	}
-}
-
-@media (orientation: landscape){
-	.wrap {
-	flex-direction: row;
+	flex-direction: column-reverse;
 	}
 }
