@@ -1,0 +1,44 @@
+.wrap {
+	display: flex;
+	justify-content: space-around;
+	background: #cecece;
+}
+
+.sq {
+	width: 250px;
+	height: 250px;
+}
+
+.cl1{
+	background: #ce00ce
+}
+
+.cl2{
+	background: #cece00
+}
+
+.cl3{
+	background: #00ce00
+}
+
+.cl4{
+	background: #ce0000
+}
+
+@media (max-width: 1200px){
+	.wrap {
+	flex-direction: column;
+	}
+}
+
+@media (max-width: 850px){
+	.wrap {
+	flex-direction: column;
+	}
+}
+
+@media (orientation: landscape){
+	.wrap {
+	flex-direction: row;
+	}
+}
