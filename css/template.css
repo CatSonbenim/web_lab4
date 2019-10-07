@@ -36,3 +36,10 @@
 	flex-direction: column-reverse;
 	}
 }
+
+@media (max-width: 1440px) and (orientation: landscape){
+	.wrap {
+	flex-direction: row-reverse;
+	background: #9aa8ed;
+	}
+}
